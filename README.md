@@ -15,7 +15,7 @@ _This is an API Challenge developed for Unnax Company._
 
 ## Endpoints.
 
-_Note: Get methods allows pagination parameters.
+_Note: Get methods allows pagination parameters._
 
 * \[GET\]: http://127.0.0.1:8000/api/read/
 * \[POST\]: http://127.0.0.1:8000/api/read/
@@ -23,7 +23,7 @@ _Note: Get methods allows pagination parameters.
 
 ## How to run.
 
-_Note: Docker & Docker-compose expected to be installed.
+_Note: Docker & Docker-compose expected to be installed._
 
 ```
 docker-compose up --build
