@@ -25,6 +25,8 @@ _Note: Get methods allow pagination parameters._
 
 _Note: Docker & Docker-compose expected to be installed._
 
+Run docker-compose command and then navigate to: http://127.0.0.1:8000/api/read/
+
 ```
 docker-compose up --build
 ```
