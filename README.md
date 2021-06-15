@@ -17,8 +17,8 @@ _This is an API Challenge developed for Unnax Company._
 
 _Note: Get methods allows pagination parameters.
 
-* [GET]: http://127.0.0.1:8000/api/read/
-* [POST]: http://127.0.0.1:8000/api/read/
+* \[GET\]: http://127.0.0.1:8000/api/read/
+* \[POST\]: http://127.0.0.1:8000/api/read/
   * params: {"username": "x", "password": "testpass"}
 
 ## How to run.
@@ -28,4 +28,3 @@ _Note: Docker & Docker-compose expected to be installed.
 ```
 docker-compose up --build
 ```
-
