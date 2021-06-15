@@ -15,7 +15,7 @@ _This is an API Challenge developed for Unnax Company._
 
 ## Endpoints.
 
-_Note: Get methods allows pagination parameters._
+_Note: Get methods allow pagination parameters._
 
 * \[GET\]: http://127.0.0.1:8000/api/read/
 * \[POST\]: http://127.0.0.1:8000/api/read/
