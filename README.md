@@ -31,16 +31,11 @@ Run docker-compose command and then navigate to: http://127.0.0.1:8000/api/read/
 docker-compose up --build
 ```
 
-Or scrap account panel via console:
-
-```
-docker-compose run app sh -c "python read.py --username yourusername --password yourpassword"
-```
-
-In case that you need migrations:
+Or scrap account panel via console (run migrations first):
 
 ```
 docker-compose run app sh -c "python manage.py migrate"
+docker-compose run app sh -c "python read.py --username yourusername --password yourpassword"
 ```
 
 Result example:
