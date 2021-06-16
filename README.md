@@ -34,10 +34,20 @@ docker-compose up --build
 Or scrap account panel via console:
 
 ```
+docker-compose build
+docker-compose run app sh -c "python manage.py migrate"
 docker-compose run app sh -c "python read.py --username yourusername --password yourpassword"
 ```
 
 Result example:
 
 <img width="515" alt="read py result" src="https://user-images.githubusercontent.com/19146580/122103254-b408a580-ce16-11eb-9859-128e25225ae8.png">
+
+## Running tests and flake8.
+
+```
+docker-compose build
+docker-compose run app sh -c "python manage.py migrate"
+docker-compose run app sh -c "python manage.py test && flake8"
+```
 
