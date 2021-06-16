@@ -46,8 +46,6 @@ Result example:
 ## Running tests and flake8.
 
 ```
-docker-compose build
-docker-compose run app sh -c "python manage.py migrate"
 docker-compose run app sh -c "python manage.py test && flake8"
 ```
 
