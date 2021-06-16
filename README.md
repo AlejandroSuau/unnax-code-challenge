@@ -34,8 +34,6 @@ docker-compose up --build
 Or scrap account panel via console:
 
 ```
-docker-compose build
-docker-compose run app sh -c "python manage.py migrate"
 docker-compose run app sh -c "python read.py --username yourusername --password yourpassword"
 ```
 
